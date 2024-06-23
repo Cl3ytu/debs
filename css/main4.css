@@ -40,8 +40,8 @@ main {
 .menu ul li {
     display: inline-block;
     color: #5e5e5e;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 8px;
     height: 30px;
 }
