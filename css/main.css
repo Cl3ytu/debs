@@ -160,12 +160,10 @@ p.texto-destaque {
     padding-left: 10px;
     padding-right: 10px;
     width: 30%;
-    float: left;
     position: relative;
 }
 
 .bloco-texto {
-    float: left;
     margin-top: 2em;
 }
 
