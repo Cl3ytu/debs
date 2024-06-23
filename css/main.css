@@ -157,6 +157,7 @@ p.texto-destaque {
 
 .col-3 {
     text-align: center;
+    display: inline-block;
     padding-left: 10px;
     padding-right: 10px;
     width: 30%;
