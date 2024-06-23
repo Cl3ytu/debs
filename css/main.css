@@ -128,10 +128,10 @@ li.slick-active button {
 }
 
 .content {
+    text-align: center;
     margin: 0 auto;
-    width: 75%;
-    position: absolute;
-    left: 25%;
+    width: 85%;
+    position: relative;
 }
 
 .texto-destaque {
