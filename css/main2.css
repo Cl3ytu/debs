@@ -104,6 +104,10 @@ li.slick-active button {
     text-align: center;
 }
 
+.spacetop {
+    margin-top: 4em;
+}
+
 .texto-destaque {
     text-align: center;
     font-family: monospace;
