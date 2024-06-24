@@ -127,6 +127,13 @@ p.texto-destaque {
     color: #c9c9c9;
 }
 
+p2.texto-destaque {
+    color: #c9c9c9;
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+}
+
 .col-3 {
     display: inline-block;
     padding-left: 15px;
