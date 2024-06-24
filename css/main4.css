@@ -120,6 +120,9 @@ h1.texto-destaque {
 
 h2.texto-destaque {
     color: #c9c9c9;
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
 }
 
 p.texto-destaque {
