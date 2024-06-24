@@ -87,6 +87,71 @@
             </p>
             <p class="texto-destaque">Espero que tenha gostado S2
             </p>
+
+            <div>
+                <div>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Botão com Ação</title>
+                    <style>
+                        #meuBotao {
+                            background-color: #5e5e5e;
+                            color: white;
+                            padding: 20px 40px;
+                            border: none;
+                            cursor: pointer;
+                            font-size: 30px;
+                            font-family: monospace;
+                            border-radius: 10px;
+                            margin-top: 1em;
+                        }
+
+                        #meuBotao:hover {
+                            background-color: #8a2be2;
+                            font-family: monospace;
+                            font-size: 30px;
+                            border-radius: 10px;
+                        }
+
+                        #fraseSecreta {
+                            margin-top: 20px;
+                            display: none;
+                            color: aliceblue;
+                            font-family: monospace;
+                            font-size: 30px;
+                            margin: 50px auto;
+                            width: 50%;
+                            padding: 20px;
+                            background-color: #8a2be2;
+                            border-radius: 10px;
+                        }
+
+                        #fraseSecreta p {
+                            color: #fff;
+                            text-align: center;
+                            font-size: 24px;
+                        }
+                    </style>
+                </div>
+                <div>
+                    <button id="meuBotao">Clique aqui para perdoar</button>
+
+                    <div id="fraseSecreta">
+                        <p>Obg linda S2 S2.</p>
+                        <p>Chama no zap ;)</p>
+                    </div>
+
+                    <script>
+                        const botao = document.getElementById('meuBotao');
+                        const fraseSecreta = document.getElementById('fraseSecreta');
+
+                        botao.addEventListener('click', function () {
+                            fraseSecreta.style.display = 'block';
+                        });
+                    </script>
+                </div>
+            </div>
+            
             <div class="col-3 bloco-texto">
                 <img src="img/frie8.png" alt="" width="346" height="200">
                 <h3></h3>
